@@ -17,7 +17,7 @@ const previewDescription =
   'Développeur spécialisé dans la conception d’applications fiables, performantes et centrées sur les besoins réels des utilisateurs.';
 
 export const metadata: Metadata = {
-  title: { default: siteName, template: `%s | ${siteName}` },
+  title: siteName,
   description:
     'Développeur freelance expert en ingénierie logicielle, je conçois des applications fiables, performantes et centrées sur les besoins réels des utilisateurs grâce au Domain-Driven Design, au clean code, au TDD et à une architecture soignée déployée selon les pratiques DevOps.',
   metadataBase: new URL('https://marc.gavanier.com'),

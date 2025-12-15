@@ -3,7 +3,7 @@ import { cn } from '@/libraries/utils';
 export const ApproachSection = ({ className }: { className?: string }) => (
   <section id='approach' className={cn('my-24', className)}>
     <h2 className='text-4xl text-center md:text-left font-bold bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary-subtle)] bg-clip-text text-transparent mb-8'>
-      Mon approche
+      Approche
     </h2>
     <p className='md:text-lg mb-6'>
       J’adopte une démarche itérative centrée sur le terrain.

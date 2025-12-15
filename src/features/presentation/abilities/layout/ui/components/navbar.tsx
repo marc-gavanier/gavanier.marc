@@ -14,7 +14,7 @@ export const Navbar = () => (
           <div className='lg:container mx-auto px-16 lg:px-8 xl:px-16 2xl:px-32 py-14 flex flex-col sm:flex-row justify-between'>
             <div className='flex gap-2 justify-between items-center '>
               <Link href='/' title='Retour à l’accueil' className='font-bold text-xl text-base-title flex items-center gap-2'>
-                <Logo color='fbc-white' className='max-w-24' />
+                <Logo color='color-neutral-content' className='max-w-24' />
               </Link>
               <Button kind='btn-ghost' className='px-2 sm:hidden' {...toggle}>
                 <RiMenuLine size={24} aria-hidden={true} />

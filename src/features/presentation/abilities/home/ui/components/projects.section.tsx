@@ -10,7 +10,7 @@ import { cn } from '@/libraries/utils';
 export const ProjectsSection = ({ className }: { className?: string }) => (
   <section id='projects' className={cn('my-24', className)}>
     <h2 className='text-4xl text-center md:text-left font-bold bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary-subtle)] bg-clip-text text-transparent mb-8'>
-      Mes dernières contributions
+      Contributions récentes
     </h2>
     <div className='flex flex-col gap-12'>
       <div className='flex flex-col lg:flex-row gap-12 items-center'>

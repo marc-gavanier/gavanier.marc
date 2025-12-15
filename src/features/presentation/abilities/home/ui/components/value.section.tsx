@@ -1,11 +1,10 @@
 import { RiShieldCheckLine, RiStackLine, RiTeamLine } from 'react-icons/ri';
-import { cn } from '@/libraries/utils';
 
 export const ValueSection = ({ className }: { className?: string }) => (
-  <section id='value' className={cn('py-24 bg-primary-surface')}>
+  <section id='value' className='py-24 bg-primary-surface'>
     <div className={className}>
       <h2 className='text-4xl text-center md:text-left font-bold bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary-subtle)] bg-clip-text text-transparent mb-6'>
-        Ma valeur en mission
+        Valeur en mission
       </h2>
       <p className='md:text-lg mb-6'>
         J’apporte une dynamique sereine, précise et orientée résultats.

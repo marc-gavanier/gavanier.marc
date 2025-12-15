@@ -20,7 +20,7 @@ export const ValueSection = ({ className }: { className?: string }) => (
               size={48}
               aria-hidden={true}
             />
-            <h2 className='card-title'>Fiabilité & transparence</h2>
+            <h3 className='card-title'>Fiabilité & transparence</h3>
             <p>
               Je prends le temps de comprendre les enjeux, je clarifie les besoin des utilisateurs et j’avance en toute
               transparence pour livrer une solution fiable, sans dérive et sans surprise.
@@ -30,7 +30,7 @@ export const ValueSection = ({ className }: { className?: string }) => (
         <div className='card bg-base-100'>
           <div className='card-body'>
             <RiStackLine className='text-base-100 primary bg-primary p-3 mb-3 rounded-full' size={48} aria-hidden={true} />
-            <h2 className='card-title'>Compétences transverses</h2>
+            <h3 className='card-title'>Compétences transverses</h3>
             <p>
               Je m’intéresse à tout ce qui fait avancer un produit&nbsp;: front, back, cloud, automatisation. Cette
               compréhension globale me permet d’agir au bon endroit et de faire le lien entre les équipes.
@@ -40,7 +40,7 @@ export const ValueSection = ({ className }: { className?: string }) => (
         <div className='card bg-base-100'>
           <div className='card-body'>
             <RiTeamLine className='text-base-100 primary bg-primary p-3 mb-3 rounded-full' size={48} aria-hidden={true} />
-            <h2 className='card-title'>Impact sur l’équipe</h2>
+            <h3 className='card-title'>Impact sur l’équipe</h3>
             <p>
               Je m’aligne sur la cadence de l’équipe et je renforce l’expérience développeur au fil de l’eau, grâce à des
               améliorations ciblées sur la qualité, l’architecture et l’automatisation.

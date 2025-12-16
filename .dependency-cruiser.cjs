@@ -194,6 +194,7 @@ const FORBIDDEN_APP = [
 		to: {
 			pathNot: [
 				'node_modules',
+				'src/markdown',
 				'src/libraries',
 				'src/features',
 				'src/styles/globals.css',

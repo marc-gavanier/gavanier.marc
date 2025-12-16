@@ -4,18 +4,21 @@ import { FooterLinks } from './footer-links';
 
 export const FooterLegal = ({
   company,
-  privacyPolicyLink,
+  legalNoticeLink,
   termsOfServiceLink,
+  privacyPolicyLink,
   children,
   className
 }: {
   company: string;
-  privacyPolicyLink: string;
+  legalNoticeLink: string;
   termsOfServiceLink: string;
+  privacyPolicyLink: string;
   children?: ReactNode;
   className?: string;
 }) => {
   const links = [
+    { key: 'legal-notice', linkProps: { href: legalNoticeLink, children: 'Mentions légales' } },
     { key: 'terms-of-service', linkProps: { href: termsOfServiceLink, children: 'Conditions d’utilisation' } },
     { key: 'privacy-policy', linkProps: { href: privacyPolicyLink, children: 'Politique de confidentialité' } },
     { key: 'sitemap', linkProps: { href: '/sitemap', children: 'Sitemap' } }

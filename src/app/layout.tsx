@@ -34,7 +34,13 @@ export default ({ children }: { children: ReactNode }) => (
           <Logo color='color-base-500' className='max-w-40 pb-4' />
           <ThemeChanger />
         </Footer>
-        <FooterLegal className='bg-base-300' company='Marc Gavanier' privacyPolicyLink='/privacy' termsOfServiceLink='/terms'>
+        <FooterLegal
+          className='bg-base-300'
+          company='Marc Gavanier'
+          legalNoticeLink='/legal-notice'
+          privacyPolicyLink='/privacy'
+          termsOfServiceLink='/terms'
+        >
           <FooterSocialLinks links={socialLinks}></FooterSocialLinks>
         </FooterLegal>
       </ThemeProvider>

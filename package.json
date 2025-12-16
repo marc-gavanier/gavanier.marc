@@ -49,7 +49,11 @@
   "vitest": "^4.0.9"
  },
  "dependencies": {
+  "@mdx-js/loader": "^3.1.1",
+  "@mdx-js/react": "^3.1.1",
+  "@next/mdx": "^16.0.7",
   "@tanstack/react-form": "^1.25.0",
+  "@types/mdx": "^2.0.13",
   "clsx": "^2.1.1",
   "daisyui": "^5.5.4",
   "effect": "^3.19.4",

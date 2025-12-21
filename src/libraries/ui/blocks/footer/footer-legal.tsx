@@ -21,7 +21,7 @@ export const FooterLegal = ({
     { key: 'legal-notice', linkProps: { href: legalNoticeLink, children: 'Mentions légales' } },
     { key: 'terms-of-service', linkProps: { href: termsOfServiceLink, children: 'Conditions d’utilisation' } },
     { key: 'privacy-policy', linkProps: { href: privacyPolicyLink, children: 'Politique de confidentialité' } },
-    { key: 'sitemap', linkProps: { href: '/sitemap', children: 'Sitemap' } }
+    { key: 'sitemap', linkProps: { href: '/sitemap', children: 'Plan du site' } }
   ];
 
   return (

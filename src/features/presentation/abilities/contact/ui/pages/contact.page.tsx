@@ -1,4 +1,5 @@
 import { RiGithubFill, RiLinkedinBoxFill } from 'react-icons/ri';
+import { MaltLogo } from '@/libraries/ui/illustrations/products/malt/malt.logo';
 import { ButtonLink } from '@/libraries/ui/primitives/button-link';
 import { ContactForm } from '../components/contact.form';
 
@@ -17,6 +18,17 @@ export const ContactPage = () => (
       <div>
         <div className='mb-6 flex gap-4 lg:justify-start justify-center'>
           <ButtonLink
+            href='https://github.com/marc-gavanier'
+            target='_blank'
+            rel='noopener noreferrer'
+            color='btn-primary'
+            className='rounded-full py-8'
+            kind='btn-soft'
+          >
+            <RiGithubFill size={36} aria-hidden={true} />
+            <span className='sr-only'>Github</span>
+          </ButtonLink>
+          <ButtonLink
             href='https://linkedin.com/in/marc-gavanier'
             target='_blank'
             rel='noopener noreferrer'
@@ -28,15 +40,15 @@ export const ContactPage = () => (
             <span className='sr-only'>Linkedin</span>
           </ButtonLink>
           <ButtonLink
-            href='https://github.com/marc-gavanier'
+            href='https://www.malt.fr/profile/marcgavanier'
             target='_blank'
             rel='noopener noreferrer'
             color='btn-primary'
             className='rounded-full py-8'
             kind='btn-soft'
           >
-            <RiGithubFill size={36} aria-hidden={true} />
-            <span className='sr-only'>Github</span>
+            <MaltLogo width='36' height='36' fill='currentColor' aria-hidden={true} />
+            <span className='sr-only'>Malt</span>
           </ButtonLink>
         </div>
         <address className='text-muted not-italic mb-8 lg:text-start text-center'>

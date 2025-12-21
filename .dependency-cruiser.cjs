@@ -194,6 +194,7 @@ const FORBIDDEN_APP = [
 		to: {
 			pathNot: [
 				'node_modules',
+				'metadata.ts',
 				'src/markdown',
 				'src/libraries',
 				'src/features',
@@ -393,7 +394,7 @@ const FORBIDDEN_LIBRARIES = [
 			path: ['^src/libraries'],
 		},
 		to: {
-			pathNot: ['^src/libraries', '^node_modules', 'assert'],
+			pathNot: ['^src/libraries', '^node_modules', 'assert', 'path', 'fs'],
 		},
 	},
 	{

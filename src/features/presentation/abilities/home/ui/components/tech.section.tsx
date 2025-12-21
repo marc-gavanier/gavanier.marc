@@ -20,7 +20,7 @@ export const TechSection = ({ className }: { className?: string }) => (
     <p className='text-muted mb-2'>
       Interfaces robustes, accessibles et maintenables, avec une attention forte portée à la simplicité et aux usages réels.
     </p>
-    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 my-12'>
+    <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-8 my-12'>
       <Link
         href='https://www.typescriptlang.org/'
         target='_blank'
@@ -56,6 +56,16 @@ export const TechSection = ({ className }: { className?: string }) => (
         />
         <span className='font-semibold'>Next.js</span>
       </Link>
+      <Link href='https://tanstack.com/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
+        <Image
+          width={200}
+          height={200}
+          src='/images/home/tech/tanstack.png'
+          alt='Tanstack'
+          className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+        />
+        <span className='font-semibold'>Tanstack</span>
+      </Link>
       <Link href='https://angular.dev/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
         <Image
           width={200}
@@ -76,6 +86,16 @@ export const TechSection = ({ className }: { className?: string }) => (
         />
         <span className='font-semibold'>Tailwind CSS</span>
       </Link>
+      <Link href='https://daisyui.com/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
+        <Image
+          width={200}
+          height={200}
+          src='/images/home/tech/daisyui.svg'
+          alt='daisyUI'
+          className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+        />
+        <span className='font-semibold'>daisyUI</span>
+      </Link>
       <Link href='https://getbootstrap.com/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
         <Image
           width={200}
@@ -91,7 +111,7 @@ export const TechSection = ({ className }: { className?: string }) => (
     <p className='text-muted mb-2'>
       Back-ends orientés métier, conçus pour évoluer dans le temps et rester simples à maintenir.
     </p>
-    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 my-12'>
+    <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-8 my-12'>
       <Link href='https://nodejs.org/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
         <Image
           width={200}
@@ -102,12 +122,32 @@ export const TechSection = ({ className }: { className?: string }) => (
         />
         <span className='font-semibold'>Node.js</span>
       </Link>
+      <Link href='https://effect.website/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
+        <Image
+          width={200}
+          height={200}
+          src='/images/home/tech/effect.svg'
+          alt='Effect'
+          className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+        />
+        <span className='font-semibold'>Effect</span>
+      </Link>
+      <Link href='https://trpc.io/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
+        <Image
+          width={200}
+          height={200}
+          src='/images/home/tech/trpc.svg'
+          alt='tRPC'
+          className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+        />
+        <span className='font-semibold'>tRPC</span>
+      </Link>
       <Link href='https://www.prisma.io/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
         <Image
           width={200}
           height={200}
           src='/images/home/tech/prisma.svg'
-          alt='prisma'
+          alt='Prisma'
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
         />
         <span className='font-semibold'>Prisma</span>
@@ -132,10 +172,10 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/dotnet.svg'
-          alt='.NET / ASP.NET Core'
+          alt='ASP.NET Core'
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
         />
-        <span className='font-semibold'>.NET / ASP.NET Core</span>
+        <span className='font-semibold'>.ASP.NET Core</span>
       </Link>
       <Link href='https://www.postgresql.org/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
         <Image
@@ -147,12 +187,22 @@ export const TechSection = ({ className }: { className?: string }) => (
         />
         <span className='font-semibold'>PostgreSQL</span>
       </Link>
+      <Link href='https://www.openapis.org/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
+        <Image
+          width={200}
+          height={200}
+          src='/images/home/tech/openapi.svg'
+          alt='OpenAPI'
+          className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+        />
+        <span className='font-semibold'>OpenAPI</span>
+      </Link>
     </div>
     <h3 className='font-bold text-2xl mt-4 mb-2'>Infrastructure & automatisation</h3>
     <p className='text-muted mb-2'>
       Infrastructures pragmatiques, automatisées et pensées pour livrer vite sans sacrifier la fiabilité.
     </p>
-    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-8 my-12'>
+    <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-8 my-12'>
       <Link href='https://aws.amazon.com/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
         <Image
           width={200}
@@ -203,6 +253,16 @@ export const TechSection = ({ className }: { className?: string }) => (
         />
         <span className='font-semibold'>Pulumi</span>
       </Link>
+      <Link href='https://sst.dev/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
+        <Image
+          width={200}
+          height={200}
+          src='/images/home/tech/sst.svg'
+          alt='SST'
+          className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+        />
+        <span className='font-semibold'>SST</span>
+      </Link>
       <Link href='https://www.docker.com/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
         <Image
           width={200}
@@ -243,7 +303,7 @@ export const TechSection = ({ className }: { className?: string }) => (
     <p className='text-muted mb-2'>
       Qualité intégrée dès le départ&nbsp;: tests, automatisation, lisibilité, observabilité et retours rapides.
     </p>
-    <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-8 gap-8 my-12'>
+    <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 my-12'>
       <Link href='https://git-scm.com/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
         <Image
           width={200}

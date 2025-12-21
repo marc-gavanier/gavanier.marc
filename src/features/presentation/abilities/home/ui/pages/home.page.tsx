@@ -1,4 +1,5 @@
 import { TechSection } from '@/features/presentation/abilities/home/ui/components/tech.section';
+import { contentId, footerId, SkipLinksPortal } from '@/libraries/ui/blocks/skip-links';
 import { ApproachSection } from '../components/approach.section';
 import { FinalCTASection } from '../components/final-cta.section';
 import { HeroSection } from '../components/hero.section';
@@ -7,13 +8,23 @@ import { ServicesSection } from '../components/services.section';
 import { ValueSection } from '../components/value.section';
 
 export const HomePage = () => (
-  <main>
-    <HeroSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
-    <ApproachSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
-    <ServicesSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
-    <ValueSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
-    <ProjectsSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
-    <TechSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
-    <FinalCTASection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
-  </main>
+  <>
+    <SkipLinksPortal
+      links={[
+        { label: 'Contenu', anchor: `#${contentId}` },
+        { label: 'Pied de page', anchor: `#${footerId}` }
+      ]}
+    >
+      Liens de navigation rapide
+    </SkipLinksPortal>
+    <main id={contentId}>
+      <HeroSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
+      <ApproachSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
+      <ServicesSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
+      <ValueSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
+      <ProjectsSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
+      <TechSection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
+      <FinalCTASection className='lg:container mx-auto px-8 xl:px-16 2xl:px-32' />
+    </main>
+  </>
 );

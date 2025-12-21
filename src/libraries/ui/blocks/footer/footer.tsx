@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { footerId } from '@/libraries/ui/blocks/skip-links';
 import { type FooterLink, FooterLinks } from './footer-links';
 
 export type Category = {
@@ -16,7 +17,7 @@ export const Footer = ({
   className?: string;
 }) => (
   <div className={className}>
-    <footer className='footer sm:footer-horizontal container mx-auto px-6 py-10 xl:flex xl:gap-12'>
+    <footer id={footerId} className='footer sm:footer-horizontal container mx-auto px-6 py-10 xl:flex xl:gap-12'>
       {children && <aside className='me-4 flex-1'>{children}</aside>}
       {categories.map(({ name, links }, index) => (
         <nav key={name} aria-labelledby={`footer-title-${index}`}>

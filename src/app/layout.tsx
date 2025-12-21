@@ -6,18 +6,35 @@ import { type Category, Footer, FooterLegal, type FooterLink, FooterSocialLinks 
 import { ThemeChanger } from '@/libraries/ui/blocks/theme-changer';
 import { Toaster } from '@/libraries/ui/blocks/toaster';
 import { Logo } from '@/libraries/ui/illustrations/logo';
+import { MaltLogo } from '@/libraries/ui/illustrations/products/malt/malt.logo';
 import { ThemeProvider } from '@/libraries/ui/theme/providers';
 
 const footerCategories: Category[] = [];
 
 const socialLinks: FooterLink[] = [
   {
-    key: 'twitter',
-    linkProps: { href: 'https://www.linkedin.com/in/marc-gavanier', icon: <RiLinkedinBoxFill size='24' />, children: 'Twitter' }
+    key: 'github',
+    linkProps: {
+      href: 'https://github.com/marc-gavanier',
+      icon: <RiGithubFill size='24' aria-hidden={true} />,
+      children: 'GitHub'
+    }
   },
   {
-    key: 'github',
-    linkProps: { href: 'https://github.com/marc-gavanier', icon: <RiGithubFill size='24' />, children: 'GitHub' }
+    key: 'linkedin',
+    linkProps: {
+      href: 'https://www.linkedin.com/in/marc-gavanier',
+      icon: <RiLinkedinBoxFill size='24' aria-hidden={true} />,
+      children: 'Linkedin'
+    }
+  },
+  {
+    key: 'malt',
+    linkProps: {
+      href: 'https://www.malt.fr/profile/marcgavanier',
+      icon: <MaltLogo width='24' height='24' fill='currentColor' className='p-0.5' aria-hidden={true} />,
+      children: 'Malt'
+    }
   }
 ];
 

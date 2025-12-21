@@ -3,6 +3,7 @@ import '@/styles/globals.css';
 import { RiGithubFill, RiLinkedinBoxFill } from 'react-icons/ri';
 import { Navbar } from '@/features/presentation/abilities/layout/ui/components/navbar';
 import { type Category, Footer, FooterLegal, type FooterLink, FooterSocialLinks } from '@/libraries/ui/blocks/footer';
+import { skipLinksId } from '@/libraries/ui/blocks/skip-links';
 import { ThemeChanger } from '@/libraries/ui/blocks/theme-changer';
 import { Toaster } from '@/libraries/ui/blocks/toaster';
 import { Logo } from '@/libraries/ui/illustrations/logo';
@@ -44,6 +45,7 @@ export default ({ children }: { children: ReactNode }) => (
       <ThemeProvider attribute='data-theme' defaultTheme='light' enableSystem disableTransitionOnChange>
         <Toaster directionY='toast-top' directionX='toast-center' />
         <div className='flex flex-col min-h-screen'>
+          <div id={skipLinksId} />
           <Navbar />
           {children}
         </div>

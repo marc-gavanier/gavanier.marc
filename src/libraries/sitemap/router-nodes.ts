@@ -8,6 +8,8 @@ export type RouteNode = {
   children: RouteNode[];
 };
 
+const PARENTHESIS_PATH_PARAM: RegExp = /\/\(.+\)/;
+
 const alphaOrder = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name);
 
 const resolveMetadataTitle = async (metadataPath: string, fallback: string) => {
@@ -37,7 +39,7 @@ const toRouteNode =
       ? routerNodes(path.join(fullPath, entry.name), routePath)
       : [
           {
-            path: `/${routePath}`,
+            path: `/${routePath}`.replace(PARENTHESIS_PATH_PARAM, ''),
             name: await resolveMetadataTitle(getMetadataPath(fullPath, entry), entry.name),
             children: await routerNodes(path.join(fullPath, entry.name), routePath)
           }

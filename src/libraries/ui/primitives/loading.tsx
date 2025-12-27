@@ -14,4 +14,4 @@ export type LoadingProps = {
 } & LoadingClass;
 
 export const Loading = ({ isLoading = false, className, children, style, scale }: LoadingProps) =>
-  isLoading ? <span className={cn('loading', style, scale, className)} aria-hidden={true} /> : children;
+  isLoading ? <span className={cn('loading', style, scale, className)} aria-hidden /> : children;

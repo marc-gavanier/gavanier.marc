@@ -8,17 +8,17 @@ export const TechSection = ({ className }: { className?: string }) => (
       Socle technique
     </h2>
     <p className='md:text-lg mb-3'>
-      Je privilégie la conception, les pratiques et les méthodologies transférables plutôt que les outils.
+      Je privilégie les concepts, pratiques et méthodologies transférables plutôt que les outils.
       <br />
-      Les technologies listées ci-dessous correspondent aux outils que j’utilise régulièrement en production à ce jour.
+      Les technologies listées ci-dessous sont celles que j’utilise régulièrement en production.
     </p>
     <p className='md:text-lg mb-6'>
-      Cette approche me permet de m’intégrer rapidement à de nouveaux environnements technologiques et d’y apporter une valeur
-      concrète dès le départ.
+      Cette approche me permet de m’intégrer rapidement et de créer immédiatement de la valeur pour le projet et l’équipe.
     </p>
     <h3 className='font-bold text-2xl mt-4 mb-2'>Frontend</h3>
     <p className='text-muted mb-2'>
-      Interfaces robustes, accessibles et maintenables, avec une attention forte portée à la simplicité et aux usages réels.
+      Interfaces robustes, accessibles et maintenables, avec une attention particulière portée à la simplicité et aux usages
+      réels&nbsp;:
     </p>
     <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-8 my-12'>
       <Link
@@ -31,8 +31,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={100}
           height={100}
           src='/images/home/tech/typescript.svg'
-          alt='TypeScript'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>TypeScript</span>
       </Link>
@@ -41,8 +42,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/react.svg'
-          alt='React'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>React</span>
       </Link>
@@ -51,8 +53,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/nextjs.svg'
-          alt='Next.js'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Next.js</span>
       </Link>
@@ -60,9 +63,10 @@ export const TechSection = ({ className }: { className?: string }) => (
         <Image
           width={200}
           height={200}
-          src='/images/home/tech/tanstack.png'
-          alt='Tanstack'
+          src='/images/home/tech/tanstack.webp'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Tanstack</span>
       </Link>
@@ -71,8 +75,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/angular.svg'
-          alt='Angular'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Angular</span>
       </Link>
@@ -81,8 +86,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/tailwind.svg'
-          alt='Tailwind CSS'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Tailwind CSS</span>
       </Link>
@@ -91,8 +97,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/daisyui.svg'
-          alt='daisyUI'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>daisyUI</span>
       </Link>
@@ -101,15 +108,16 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/bootstrap.svg'
-          alt='Bootstrap'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Bootstrap</span>
       </Link>
     </div>
     <h3 className='font-bold text-2xl mt-4 mb-2'>Backend</h3>
     <p className='text-muted mb-2'>
-      Back-ends orientés métier, conçus pour évoluer dans le temps et rester simples à maintenir.
+      Back-ends orientés métier, conçus pour évoluer dans le temps et rester simples à maintenir&nbsp;:
     </p>
     <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-8 my-12'>
       <Link href='https://nodejs.org/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
@@ -117,8 +125,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/nodejs.svg'
-          alt='Node.js'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Node.js</span>
       </Link>
@@ -127,8 +136,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/effect.svg'
-          alt='Effect'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Effect</span>
       </Link>
@@ -137,8 +147,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/trpc.svg'
-          alt='tRPC'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>tRPC</span>
       </Link>
@@ -147,8 +158,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/prisma.svg'
-          alt='Prisma'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Prisma</span>
       </Link>
@@ -157,8 +169,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/drizzle.svg'
-          alt='Drizzle'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Drizzle</span>
       </Link>
@@ -172,8 +185,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/dotnet.svg'
-          alt='ASP.NET Core'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>.ASP.NET Core</span>
       </Link>
@@ -182,8 +196,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/postgresql.svg'
-          alt='PostgreSQL'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>PostgreSQL</span>
       </Link>
@@ -192,15 +207,16 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/openapi.svg'
-          alt='OpenAPI'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>OpenAPI</span>
       </Link>
     </div>
     <h3 className='font-bold text-2xl mt-4 mb-2'>Infrastructure & automatisation</h3>
     <p className='text-muted mb-2'>
-      Infrastructures pragmatiques, automatisées et pensées pour livrer vite sans sacrifier la fiabilité.
+      Infrastructures pragmatiques et automatisées, pensées pour livrer rapidement sans sacrifier la fiabilité&nbsp;:
     </p>
     <div className='grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-8 my-12'>
       <Link href='https://aws.amazon.com/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
@@ -208,8 +224,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/aws.svg'
-          alt='AWS'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>AWS</span>
       </Link>
@@ -223,8 +240,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/scaleway.svg'
-          alt='Scaleway'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Scaleway</span>
       </Link>
@@ -238,8 +256,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/terraform.svg'
-          alt='Terraform'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Terraform</span>
       </Link>
@@ -248,8 +267,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/pulumi.svg'
-          alt='Pulumi'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Pulumi</span>
       </Link>
@@ -258,8 +278,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/sst.svg'
-          alt='SST'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>SST</span>
       </Link>
@@ -268,8 +289,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/docker.svg'
-          alt='Docker'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Docker</span>
       </Link>
@@ -283,8 +305,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/github.svg'
-          alt='GitHub Actions'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>GitHub Actions</span>
       </Link>
@@ -293,15 +316,16 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/gitlab.svg'
-          alt='GitLab CI'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>GitLab CI</span>
       </Link>
     </div>
     <h3 className='font-bold text-2xl mt-4 mb-2'>Qualité logicielle & observabilité</h3>
     <p className='text-muted mb-2'>
-      Qualité intégrée dès le départ&nbsp;: tests, automatisation, lisibilité, observabilité et retours rapides.
+      Qualité intégrée dès le départ&nbsp;: tests, automatisation, lisibilité, observabilité et retours rapides&nbsp;:
     </p>
     <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 my-12'>
       <Link href='https://git-scm.com/' target='_blank' rel='noopener noreferrer' className='flex flex-col items-center'>
@@ -309,8 +333,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/git.svg'
-          alt='Git'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Git</span>
       </Link>
@@ -319,8 +344,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/vitest.svg'
-          alt='Vitest'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Vitest</span>
       </Link>
@@ -329,8 +355,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/biome.svg'
-          alt='Biome'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Biome</span>
       </Link>
@@ -339,8 +366,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/xunit.svg'
-          alt='xUnit'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>xUnit</span>
       </Link>
@@ -349,8 +377,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/playwright.svg'
-          alt='Playwright'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Playwright</span>
       </Link>
@@ -359,8 +388,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/storybook.svg'
-          alt='Storybook'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Storybook</span>
       </Link>
@@ -369,8 +399,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/sentry.svg'
-          alt='Sentry'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Sentry</span>
       </Link>
@@ -379,8 +410,9 @@ export const TechSection = ({ className }: { className?: string }) => (
           width={200}
           height={200}
           src='/images/home/tech/grafana.svg'
-          alt='Grafana'
+          alt=''
           className='h-20 md:h-24 mb-2 object-contain transition-transform duration-200 hover:scale-110 hover:-translate-y-1 hover:rotate-5'
+          loading='lazy'
         />
         <span className='font-semibold'>Grafana</span>
       </Link>

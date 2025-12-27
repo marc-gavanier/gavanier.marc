@@ -1,0 +1,51 @@
+{
+  "@context": "https://www.schema.org",
+  "@type": "Person",
+  "@id": "https://marc.gavanier.com/#person",
+  "name": "Marc Gavanier",
+  "gender": "male",
+  "url": "https://marc.gavanier.com",
+  "birthDate": "1990-02-03",
+  "birthPlace": "Paris, France",
+  "nationality": "Français",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Efrei",
+    "sameAs": ["https://www.efrei.fr", "https://fr.wikipedia.org/wiki/Efrei"]
+  },
+  "image": "https://marc.gavanier.com/images/json-ld/person.schema.jpg",
+  "jobTitle": "Ingénieur logiciel indépendant",
+  "description": "Ingénieur logiciel expert en création de produits numériques à impact au service du métier, du besoin terrain à la mise en production.",
+  "sameAs": [
+    "https://www.linkedin.com/in/marc-gavanier",
+    "https://github.com/marc-gavanier",
+    "https://gitlab.com/marc-gavanier",
+    "https://www.malt.fr/profile/marcgavanier"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lyon",
+    "postalCode": "69005",
+    "addressCountry": "France"
+  },
+  "email": "mailto:marc+website@gavanier.com",
+  "knowsAbout": [
+    "Domain-Driven Design",
+    "Test-Driven Development",
+    "Clean Architecture",
+    "Product Development",
+    "User-Centered Design",
+    "Software Engineering Best Practices",
+    "Performance Optimization",
+    "DevOps",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Node.js",
+    "Tailwind CSS",
+    "Terraform",
+    "Pulumi",
+    "AWS",
+    "CI/CD"
+  ]
+}

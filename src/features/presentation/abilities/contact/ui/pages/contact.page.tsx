@@ -38,7 +38,7 @@ export const ContactPage = () => (
               className='rounded-full py-8'
               kind='btn-soft'
             >
-              <RiGithubFill size={36} aria-hidden={true} />
+              <RiGithubFill size={36} aria-hidden />
               <span className='sr-only'>Github</span>
             </ButtonLink>
             <ButtonLink
@@ -49,7 +49,7 @@ export const ContactPage = () => (
               className='rounded-full py-8'
               kind='btn-soft'
             >
-              <RiLinkedinBoxFill size={36} aria-hidden={true} />
+              <RiLinkedinBoxFill size={36} aria-hidden />
               <span className='sr-only'>Linkedin</span>
             </ButtonLink>
             <ButtonLink
@@ -60,7 +60,7 @@ export const ContactPage = () => (
               className='rounded-full py-8'
               kind='btn-soft'
             >
-              <MaltLogo width='36' height='36' fill='currentColor' aria-hidden={true} />
+              <MaltLogo width='36' height='36' fill='currentColor' aria-hidden />
               <span className='sr-only'>Malt</span>
             </ButtonLink>
           </div>

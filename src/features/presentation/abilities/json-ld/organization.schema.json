@@ -1,0 +1,15 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://marc.gavanier.com/#organization",
+  "name": "Gavanier ingénierie logicielle",
+  "url": "https://marc.gavanier.com",
+  "logo": "https://marc.gavanier.com/images/json-ld/organization.schema.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/company/gavanier-ingenierie-logicielle",
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/gavanier-ingenierie-logicielle-910040591"
+  ],
+  "founder": {
+    "@id": "https://marc.gavanier.com/#person"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://marc.gavanier.com/#website",
+  "url": "https://marc.gavanier.com",
+  "name": "Marc Gavanier – Ingénieur logiciel indépendant",
+  "description": "Site personnel de Marc Gavanier, ingénieur logiciel indépendant spécialisé dans la conception de produits numériques à fort impact.",
+  "publisher": {
+    "@id": "https://marc.gavanier.com/#organization"
+  }
+}

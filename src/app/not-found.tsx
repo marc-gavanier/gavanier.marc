@@ -33,7 +33,7 @@ const Page = () => (
         </p>
         <div>
           <ButtonLink scale='btn-xl' color='btn-primary' href='/'>
-            <RiHome2Line className='mr-1' aria-hidden={true} />
+            <RiHome2Line className='mr-1' aria-hidden />
             Retour à l’accueil
           </ButtonLink>
         </div>

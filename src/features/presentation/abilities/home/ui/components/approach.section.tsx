@@ -6,11 +6,9 @@ export const ApproachSection = ({ className }: { className?: string }) => (
       Approche
     </h2>
     <p className='md:text-lg mb-6'>
-      J’adopte une démarche itérative centrée sur le terrain.
+      J’adopte une démarche itérative, centrée sur le terrain, pour transformer vos besoins en solutions concrètes et utiles.
       <br />
-      Chaque cycle permet d’avancer dans la bonne direction, d’apprendre et d’adapter rapidement le produit.
-      <br />
-      C’est une boucle continue, répétée jusqu’à converger vers le produit le plus utile et le plus efficace.
+      Cette méthode permet d’apprendre, d’ajuster rapidement le produit et de livrer de la valeur dès les premières itérations.
     </p>
     <ul className='list rounded-box shadow-xl shadow-primary-surface grid grid-cols-1 lg:grid-cols-2 py-4'>
       <li className='flex gap-6 p-4'>
@@ -18,18 +16,18 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Partir du besoin métier</h3>
           <p className='text-base'>
-            Chaque cycle démarre par le terrain&nbsp;: identifier le problème à résoudre et déterminer la prochaine évolution
-            qui aura un impact concret et immédiat.
+            On commence par le terrain&nbsp;: identifier le problème à résoudre et définir la prochaine évolution ayant un
+            impact concret et immédiat.
           </p>
         </div>
       </li>
       <li className='flex gap-6 p-4'>
         <div className='text-4xl font-light text-primary'>2</div>
         <div className='list-col-grow'>
-          <h3 className='uppercase font-bold text-primary py-2'>Une solution qui accueille le changement</h3>
+          <h3 className='uppercase font-bold text-primary py-2'>Concevoir pour le changement</h3>
           <p className='text-base'>
-            Je développe strictement ce qui est nécessaire, sur des fondations claire, simple et durable, pensée pour ajuster ou
-            pivoter sans friction.
+            Je développe uniquement ce qui est nécessaire, sur des fondations claires, simples et durables, conçues pour
+            s’adapter facilement aux évolutions.
           </p>
         </div>
       </li>
@@ -38,8 +36,8 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Livrer tôt, livrer souvent</h3>
           <p className='text-base'>
-            Je mets rapidement en ligne&nbsp;: des mises en production fréquentes réduisent le risque et permettent de
-            confronter la solution au terrain dès que possible.
+            Des mises en production fréquentes réduisent les risques de désalignement avec le terrain et permettent de
+            confronter rapidement la solution au réel.
           </p>
         </div>
       </li>
@@ -48,8 +46,8 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Mesurer, écouter, ajuster</h3>
           <p className='text-base'>
-            Les retours terrain guident la suite. L’observation et la mesure garantissent que le produit progresse toujours dans
-            la bonne direction.
+            Les retours du terrain guident la suite du développement. L’observation et la mesure garantissent que le produit
+            évolue toujours dans la bonne direction.
           </p>
         </div>
       </li>

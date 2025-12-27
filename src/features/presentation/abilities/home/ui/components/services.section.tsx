@@ -18,8 +18,8 @@ export const ServicesSection = ({ className }: { className?: string }) => (
           <h3 className='font-bold text-xl mb-2'>Architecture & conception logicielle</h3>
           <p>
             Je conçois des architectures robustes et évolutives qui mettent la technique au service du métier. Mon approche
-            privilégie la clarté, la cohérence du domaine et une évolution simple et maîtrisée pour accueillir sereinement les
-            prochaines évolutions.
+            privilégie la clarté et la cohérence, pour garantir des solutions fiables et faciles à faire évoluer sur le long
+            terme.
           </p>
         </div>
       </div>
@@ -30,9 +30,8 @@ export const ServicesSection = ({ className }: { className?: string }) => (
         <div>
           <h3 className='font-bold text-xl mb-2'>Développement full-stack & cloud</h3>
           <p>
-            Je construis des produits complets, du front au back jusqu’à la production. Je mets en place des infrastructures
-            cloud solides et économiques, en privilégiant des solutions simples, pragmatiques et performantes, immédiatement
-            utiles sur le terrain.
+            Je construis des produits complets, du front au back jusqu’à la production. J’installe des infrastructures cloud
+            solides et économiques, en privilégiant des solutions simples, performantes et immédiatement utiles sur le terrain.
           </p>
         </div>
       </div>
@@ -43,9 +42,9 @@ export const ServicesSection = ({ className }: { className?: string }) => (
         <div>
           <h3 className='font-bold text-xl mb-2'>Industrialisation, qualité & livraisons</h3>
           <p>
-            Je mets en place des automatisations fiables pour les contrôles qualité, l’exécution des tests et les déploiements.
-            Résultat : un rythme de livraison soutenu, qui maximise les retours terrain et garantit que le produit progresse
-            dans la bonne direction.
+            J’automatise les contrôles qualité et les déploiements pour assurer un rythme de livraison soutenu et sans friction.
+            Cette approche réduit les erreurs, anticipe les problèmes avant qu’ils n’affectent le produit et maximise les
+            retours du terrain.
           </p>
         </div>
       </div>
@@ -56,9 +55,8 @@ export const ServicesSection = ({ className }: { className?: string }) => (
         <div>
           <h3 className='font-bold text-xl mb-2'>Collaboration & partage</h3>
           <p>
-            J’accompagne les équipes quand c’est nécessaire : cadrage, bonnes pratiques, pair-programming, organisation
-            technique. Le partage de connaissances est au cœur de ma démarche pour renforcer les compétences et l’autonomie des
-            équipes.
+            J’accompagne les équipes techniques dans l’adoption des bonnes pratiques et des méthodologies de développement les
+            plus avancées, par des actions concrètes qui renforcent leurs compétences, leur autonomie et leur performance.
           </p>
         </div>
       </div>

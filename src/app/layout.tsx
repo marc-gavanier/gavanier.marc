@@ -1,6 +1,9 @@
 import type { ReactNode } from 'react';
 import '@/styles/globals.css';
 import { RiGithubFill, RiLinkedinBoxFill } from 'react-icons/ri';
+import organizationSchema from '@/features/presentation/abilities/json-ld/organization.schema.json';
+import personSchema from '@/features/presentation/abilities/json-ld/person.schema.json';
+import websiteSchema from '@/features/presentation/abilities/json-ld/website.schema.json';
 import { Navbar } from '@/features/presentation/abilities/layout/ui/components/navbar';
 import { type Category, Footer, FooterLegal, type FooterLink, FooterSocialLinks } from '@/libraries/ui/blocks/footer';
 import { skipLinksId } from '@/libraries/ui/blocks/skip-links';
@@ -17,7 +20,7 @@ const socialLinks: FooterLink[] = [
     key: 'github',
     linkProps: {
       href: 'https://github.com/marc-gavanier',
-      icon: <RiGithubFill size='24' aria-hidden={true} />,
+      icon: <RiGithubFill size='24' aria-hidden />,
       children: 'GitHub'
     }
   },
@@ -25,7 +28,7 @@ const socialLinks: FooterLink[] = [
     key: 'linkedin',
     linkProps: {
       href: 'https://www.linkedin.com/in/marc-gavanier',
-      icon: <RiLinkedinBoxFill size='24' aria-hidden={true} />,
+      icon: <RiLinkedinBoxFill size='24' aria-hidden />,
       children: 'Linkedin'
     }
   },
@@ -33,7 +36,7 @@ const socialLinks: FooterLink[] = [
     key: 'malt',
     linkProps: {
       href: 'https://www.malt.fr/profile/marcgavanier',
-      icon: <MaltLogo width='24' height='24' fill='currentColor' className='p-0.5' aria-hidden={true} />,
+      icon: <MaltLogo width='24' height='24' fill='currentColor' className='p-0.5' aria-hidden />,
       children: 'Malt'
     }
   }
@@ -63,6 +66,21 @@ export default ({ children }: { children: ReactNode }) => (
           <FooterSocialLinks links={socialLinks}></FooterSocialLinks>
         </FooterLegal>
       </ThemeProvider>
+      <script
+        type='application/ld+json'
+        // biome-ignore lint/security/noDangerouslySetInnerHtml: This JSON-LD script must be injected as raw HTML so that search engines can read it
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
+      <script
+        type='application/ld+json'
+        // biome-ignore lint/security/noDangerouslySetInnerHtml: This JSON-LD script must be injected as raw HTML so that search engines can read it
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type='application/ld+json'
+        // biome-ignore lint/security/noDangerouslySetInnerHtml: This JSON-LD script must be injected as raw HTML so that search engines can read it
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
     </body>
   </html>
 );

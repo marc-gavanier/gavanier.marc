@@ -9,41 +9,37 @@ export const ValueSection = ({ className }: { className?: string }) => (
       <p className='md:text-lg mb-6'>
         J’apporte une dynamique sereine, précise et orientée résultats.
         <br />
-        Mon objectif&nbsp;: faire progresser le projet de façon fiable, durable et sans friction pour l’équipe, tout en
-        maximisant la valeur pour les utilisateurs.
+        Mon objectif&nbsp;: faire avancer le projet avec efficacité et durabilité, tout en maximisant les bénéfices pour les
+        utilisateurs et en facilitant le travail de l’équipe.
       </p>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
         <div className='card bg-base-100'>
           <div className='card-body'>
-            <RiShieldCheckLine
-              className='text-base-100 primary bg-primary p-3 mb-3 rounded-full'
-              size={48}
-              aria-hidden={true}
-            />
+            <RiShieldCheckLine className='text-base-100 primary bg-primary p-3 mb-3 rounded-full' size={48} aria-hidden />
             <h3 className='card-title'>Fiabilité & transparence</h3>
             <p>
-              Je prends le temps de comprendre les enjeux, je clarifie les besoin des utilisateurs et j’avance en toute
-              transparence pour livrer une solution fiable, sans dérive et sans surprise.
+              Je prends le temps de comprendre les enjeux et de clarifier les besoins des utilisateurs, en avançant en toute
+              transparence pour livrer des solutions robustes, sans dérive ni surprise.
             </p>
           </div>
         </div>
         <div className='card bg-base-100'>
           <div className='card-body'>
-            <RiStackLine className='text-base-100 primary bg-primary p-3 mb-3 rounded-full' size={48} aria-hidden={true} />
+            <RiStackLine className='text-base-100 primary bg-primary p-3 mb-3 rounded-full' size={48} aria-hidden />
             <h3 className='card-title'>Compétences transverses</h3>
             <p>
-              Je m’intéresse à tout ce qui fait avancer un produit&nbsp;: front, back, cloud, automatisation. Cette
-              compréhension globale me permet d’agir au bon endroit et de faire le lien entre les équipes.
+              Je m’intéresse à tous les aspects du produit&nbsp;: front, back, cloud et automatisation. Cette vision globale me
+              permet d’intervenir là où c’est le plus critique et de fluidifier la collaboration entre les équipes.
             </p>
           </div>
         </div>
         <div className='card bg-base-100'>
           <div className='card-body'>
-            <RiTeamLine className='text-base-100 primary bg-primary p-3 mb-3 rounded-full' size={48} aria-hidden={true} />
+            <RiTeamLine className='text-base-100 primary bg-primary p-3 mb-3 rounded-full' size={48} aria-hidden />
             <h3 className='card-title'>Impact sur l’équipe</h3>
             <p>
-              Je m’aligne sur la cadence de l’équipe et je renforce l’expérience développeur au fil de l’eau, grâce à des
-              améliorations ciblées sur la qualité, l’architecture et l’automatisation.
+              Je m’aligne sur la cadence de l’équipe et contribue activement à améliorer l’expérience développeur grâce à des
+              actions ciblées sur la qualité, l’architecture et l’automatisation.
             </p>
           </div>
         </div>

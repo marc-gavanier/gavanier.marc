@@ -17,16 +17,13 @@ export const ProjectsSection = ({ className }: { className?: string }) => (
         <div className='lg:w-3/5'>
           <CoopLogo width={60} height={60} />
           <h3 className='font-bold text-2xl mt-4 mb-2'>La Coop de la médiation numérique</h3>
-          <p className='text-muted mb-2'>
-            Un outil métier national dédié à l’accompagnement des publics éloignés du numérique.
-          </p>
+          <p className='text-muted mb-2'>Outil national dédié à l’accompagnement des publics éloignés du numérique.</p>
           <p>
-            J’ai contribué dès les premières briques à construire un outil utile et fiable, en restant constamment connecté au
-            terrain et aux médiateurs. Cette dynamique collective nous a permis de livrer régulièrement des fonctionnalités à
-            fort impact.
+            J’ai participé dès les premières étapes à construire un outil fiable et utile, en restant connecté au terrain et aux
+            médiateurs. Cette approche collaborative a permis des livraisons régulières de fonctionnalités à fort impact.
           </p>
           <p className='py-3 font-medium'>
-            Résultat&nbsp;: un outil robuste, évolutif, et utilisé chaque jour par des médiateurs partout en France.
+            Aujourd’hui, la plateforme est robuste, évolutive et utilisée quotidiennement par les médiateurs&nbsp;:
           </p>
           <ul className='flex flex-wrap gap-2'>
             <li>
@@ -55,16 +52,16 @@ export const ProjectsSection = ({ className }: { className?: string }) => (
           <CartographieLogo width={60} height={60} />
           <h3 className='font-bold text-2xl mt-4 mb-2'>La Cartographie nationale des lieux d’inclusion numérique</h3>
           <p className='text-muted mb-2'>
-            Un outil national pour orienter les publics vers les lieux d’accompagnement les plus adaptés.
+            Plateforme nationale pour orienter les publics vers les lieux d’accompagnement les plus adaptés.
           </p>
           <p>
-            En plus de l’outil cartographique qui permet de rechercher, filtrer et consulter les lieux de médiation numérique,
-            j’ai conçu un pipeline complet (normalisation, déduplication, publication) permettant d’agréger quotidiennement des
-            données hétérogènes issues de multiples sources.
+            J’ai conçu l’outil cartographique qui permet de rechercher, filtrer et consulter les lieux de médiation numérique,
+            et surtout un pipeline complet (normalisation, déduplication, publication) pour agréger quotidiennement des données
+            hétérogènes provenant de multiples sources.
           </p>
           <p className='py-3 font-medium'>
-            Résultat&nbsp;: une cartographie alimentée automatiquement par les données remontées du terrain, fiable et
-            accessible à tous.
+            La cartographie est ainsi alimentée automatiquement par les données remontées du terrain, fiable et accessible à
+            tous&nbsp;:
           </p>
           <ul className='flex flex-wrap gap-2'>
             <li>
@@ -92,17 +89,14 @@ export const ProjectsSection = ({ className }: { className?: string }) => (
         <div className='lg:w-3/5'>
           <BasesLogo width={60} height={60} />
           <h3 className='font-bold text-2xl mt-4 mb-2'>Les Bases du numérique d’intérêt général</h3>
-          <p className='text-muted mb-2'>
-            Une plateforme collaborative pour partager ressources, outils et communs numériques.
-          </p>
+          <p className='text-muted mb-2'>Plateforme collaborative pour partager ressources, outils et communs numériques.</p>
           <p>
-            Je suis arrivé sur le projet quelques jours avant le lancement officiel pour renforcer l’équipe technique et
-            sécuriser une mise en production fluide. J’ai ensuite accompagné l’équipe produit pour itérer rapidement sur les
-            fonctionnalités clés et garantir une expérience utilisateur solide.
+            Arrivé juste avant le lancement officiel, j’ai renforcé l’équipe technique pour sécuriser une mise en production
+            fluide et accompagné l’équipe produit pour itérer rapidement sur les fonctionnalités clés.
           </p>
           <p className='py-3 font-medium'>
-            Résultat&nbsp;: une plateforme fluide, adaptée aux usages réels des acteurs du terrain et pleinement adoptée par la
-            communauté.
+            Aujourd’hui, la plateforme offre une expérience utilisateur solide et adaptée aux usages réels des acteurs du
+            terrain&nbsp;:
           </p>
           <ul className='flex flex-wrap gap-2'>
             <li>

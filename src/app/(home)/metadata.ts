@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 const images = [
   {
     url: '/images/home/og-image.jpg',
-    alt: 'Marc Gavanier - Ingénieur logiciel indépendant'
+    alt: 'Marc Gavanier – Ingénieur logiciel indépendant'
   }
 ];
 
@@ -11,9 +11,9 @@ const previewDescription =
   'Développeur spécialisé dans la conception d’applications fiables, performantes et centrées sur les besoins réels des utilisateurs.';
 
 export const metadata: Metadata = {
-  title: 'Marc Gavanier',
+  title: 'Marc Gavanier – Ingénieur logiciel indépendant, création de produits numériques',
   description:
-    'Développeur freelance expert en ingénierie logicielle, je conçois des applications fiables, performantes et centrées sur les besoins réels des utilisateurs grâce au Domain-Driven Design, au clean code, au TDD et à une architecture soignée déployée selon les pratiques DevOps.',
+    'Développeur freelance expert en ingénierie logicielle, je conçois des applications fiables, performantes et centrées sur les besoins réels des utilisateurs.',
   metadataBase: new URL('https://marc.gavanier.com'),
   alternates: { canonical: '/' },
   openGraph: {

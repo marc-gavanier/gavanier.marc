@@ -17,7 +17,7 @@ export const Navbar = () => (
                 <Logo color='color-neutral-content' className='max-w-24' />
               </Link>
               <Button kind='btn-ghost' className='px-2 sm:hidden' {...toggle}>
-                <RiMenuLine size={24} aria-hidden={true} />
+                <RiMenuLine size={24} aria-hidden />
               </Button>
             </div>
             <div

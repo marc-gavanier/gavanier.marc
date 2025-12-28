@@ -13,6 +13,7 @@ export const HeroSection = ({ className }: { className?: string }) => (
         src='/images/home/profil-picture.webp'
         alt='Portrait de Marc Gavanier'
         fetchPriority='high'
+        loading='lazy'
       />
     </div>
     <div className='md:flex-4/6'>

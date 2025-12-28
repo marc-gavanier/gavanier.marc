@@ -27,7 +27,9 @@ export const HeroSection = ({ className }: { className?: string }) => (
           </span>
         </span>
       </p>
-      <h1 className='text-lg md:text-xl'>Ingénieur logiciel indépendant – Créateur de produits numériques à fort impact</h1>
+      <h1 className='text-lg md:text-xl'>
+        Ingénieur logiciel indépendant – Créateur de produits numériques centrés sur les utilisateurs
+      </h1>
       <p className='text-lg md:text-xl mb-12'>
         J’accompagne à la transformation des besoins métier en solutions numériques concrètes, du concept à la production,{' '}
         <strong>en livrant rapidement des fonctionnalités utiles et fiables</strong>.

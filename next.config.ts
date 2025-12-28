@@ -6,27 +6,7 @@ const nextConfig: NextConfig = {
   pageExtensions: ['md', 'mdx', 'ts', 'tsx'],
   images: {
     unoptimized: true
-  },
-  headers: async () => [
-    {
-      source: '/_next/static/:all*(js|css)',
-      headers: [
-        {
-          key: 'Cache-Control',
-          value: 'public, max-age=31536000, immutable'
-        }
-      ]
-    },
-    {
-      source: '/images/:all*',
-      headers: [
-        {
-          key: 'Cache-Control',
-          value: 'public, max-age=31536000, immutable'
-        }
-      ]
-    }
-  ]
+  }
 };
 
 const withMDX = createMDX({

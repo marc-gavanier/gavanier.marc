@@ -53,7 +53,7 @@ export const HeroSection = ({ className }: { className?: string }) => (
         <Link href='https://www.societenumerique.gouv.fr/' target='_blank' rel='noopener noreferrer'>
           Société Numérique
         </Link>
-        , en concevant et développant des produits numériques plébiscités par les acteurs de terrain.
+        , en concevant et développant des produits numériques plébiscités par les acteurs opérationnels.
       </p>
     </div>
   </section>

@@ -28,8 +28,8 @@ export const ValueSection = ({ className }: { className?: string }) => (
             <RiStackLine className='text-base-100 primary bg-primary p-3 mb-3 rounded-full' size={48} aria-hidden />
             <h3 className='card-title'>Compétences transverses</h3>
             <p>
-              Je m’intéresse à tous les aspects du produit&nbsp;: front, back, cloud et automatisation. Cette vision globale me
-              permet d’intervenir là où c’est le plus critique et de fluidifier la collaboration entre les équipes.
+              Je m’intéresse à tous les aspects du produit&nbsp;: front, back, cloud et automatisation. Grâce à cette vision
+              globale, j’interviens là où c’est le plus critique et fluidifie la collaboration entre les équipes.
             </p>
           </div>
         </div>

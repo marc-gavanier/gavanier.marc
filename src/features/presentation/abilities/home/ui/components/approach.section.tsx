@@ -6,9 +6,10 @@ export const ApproachSection = ({ className }: { className?: string }) => (
       Approche
     </h2>
     <p className='md:text-lg mb-6'>
-      J’adopte une démarche itérative, centrée sur le terrain, pour transformer vos besoins en solutions concrètes et utiles.
+      J’adopte une démarche itérative, centrée sur les usages réels, pour transformer vos besoins en solutions concrètes et
+      utiles.
       <br />
-      Cette méthode permet d’apprendre, d’ajuster rapidement le produit et de proposer des améliorations concrêtes au plus tôt.
+      Cela favorise l’apprentissage, l’ajustement continu du produit et l’implémentation des améliorations au plus tôt.
     </p>
     <ul className='list rounded-box shadow-xl shadow-primary-surface grid grid-cols-1 lg:grid-cols-2 py-4'>
       <li className='flex gap-6 p-4'>
@@ -16,8 +17,8 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Partir du besoin métier</h3>
           <p className='text-base'>
-            Je commence par le terrain&nbsp;: identifier le problème à résoudre et proposer la prochaine évolution ayant un
-            impact concret et immédiat.
+            Je débute par l’analyse des usages&nbsp;: identifier le problème à résoudre et proposer la prochaine évolution ayant
+            un impact concret et immédiat.
           </p>
         </div>
       </li>
@@ -36,8 +37,8 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Livrer tôt, livrer souvent</h3>
           <p className='text-base'>
-            Je mets en production régulièrement réduisent ainsi les risques de désalignement avec le terrain et permettent de
-            confronter rapidement la solution au réel.
+            Je mets en production régulièrement afin de rester aligné avec les besoins des utilisateurs et de confronter au plus
+            vite la solution proposée à la réalité.
           </p>
         </div>
       </li>
@@ -46,7 +47,7 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Mesurer, écouter, ajuster</h3>
           <p className='text-base'>
-            Les retours du terrain guident la suite du développement. L’observation et la mesure garantissent que le produit
+            Les retours d’usage réels guident la suite du développement. L’observation et la mesure garantissent que le produit
             évolue toujours dans la bonne direction.
           </p>
         </div>

@@ -31,7 +31,7 @@ export const ServicesSection = ({ className }: { className?: string }) => (
           <h3 className='font-bold text-xl mb-2'>Développement full-stack & cloud</h3>
           <p>
             Je construis des produits complets, du front au back jusqu’à la production. J’installe des infrastructures cloud
-            solides et économiques, en privilégiant des solutions simples, performantes et immédiatement utiles sur le terrain.
+            solides et économiques, en privilégiant des solutions simples, performantes et directement exploitables.
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ export const ServicesSection = ({ className }: { className?: string }) => (
           <p>
             J’automatise les contrôles qualité et les déploiements pour assurer un rythme de livraison soutenu et sans friction.
             Cette approche réduit les erreurs, anticipe les problèmes avant qu’ils n’affectent le produit et maximise les
-            retours du terrain.
+            retours des utilisateurs.
           </p>
         </div>
       </div>

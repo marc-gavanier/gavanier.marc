@@ -10,10 +10,10 @@ export const TechSection = ({ className }: { className?: string }) => (
     <p className='md:text-lg mb-3'>
       Je privilégie les concepts, pratiques et méthodologies transférables plutôt que les outils.
       <br />
-      Les technologies listées ci-dessous sont celles que j’utilise régulièrement en production.
+      Les technologies listées ci-dessous sont celles que j’utilise le plus souvent dans mes missions.
     </p>
     <p className='md:text-lg mb-6'>
-      Cette approche me permet de m’intégrer rapidement et de créer immédiatement de la valeur pour le projet et l’équipe.
+      Cette approche facilite mon intégration rapide et la création immédiate de valeur pour le projet et l’équipe.
     </p>
     <h3 className='font-bold text-2xl mt-4 mb-2'>Frontend</h3>
     <p className='text-muted mb-2'>

@@ -16,7 +16,6 @@
     "i18n:interface": "i18next-resources-for-ts interface -i public/locales/* -o @types/resources.d.ts",
     "prepare": "husky"
   },
-  "browserslist": ["> 1%", "maintained node versions", "not IE 11", "not op_mini all", "not dead"],
   "contributors": [
     {
       "name": "Marc Gavanier",

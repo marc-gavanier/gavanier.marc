@@ -19,8 +19,8 @@ export const ProjectsSection = ({ className }: { className?: string }) => (
           <h3 className='font-bold text-2xl mt-4 mb-2'>La Coop de la médiation numérique</h3>
           <p className='text-muted mb-2'>Outil national dédié à l’accompagnement des publics éloignés du numérique.</p>
           <p>
-            J’ai participé dès les premières étapes à construire un outil fiable et utile, en restant connecté au terrain et aux
-            médiateurs. Cette approche collaborative a permis des livraisons régulières de fonctionnalités à fort impact.
+            J’ai participé dès les premières étapes à la construction d’un outil fiable et utile, en restant connecté au terrain
+            et aux médiateurs. Cette approche collaborative a permis des livraisons régulières de fonctionnalités à fort impact.
           </p>
           <p className='py-3 font-medium'>
             Aujourd’hui, la plateforme est robuste, évolutive et utilisée quotidiennement par les médiateurs&nbsp;:

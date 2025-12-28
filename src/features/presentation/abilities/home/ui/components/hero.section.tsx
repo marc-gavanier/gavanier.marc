@@ -13,7 +13,6 @@ export const HeroSection = ({ className }: { className?: string }) => (
         src='/images/home/profil-picture.webp'
         alt='Portrait de Marc Gavanier'
         fetchPriority='high'
-        loading='lazy'
       />
     </div>
     <div className='md:flex-4/6'>
@@ -32,8 +31,8 @@ export const HeroSection = ({ className }: { className?: string }) => (
         Ingénieur logiciel indépendant – Créateur de produits numériques pensés pour les utilisateurs.
       </h1>
       <p className='text-lg md:text-xl mb-12'>
-        J’accompagne à la transformation des besoins métier en solutions numériques concrètes, du concept à la production,{' '}
-        <strong>en livrant rapidement des fonctionnalités utiles et fiables</strong>.
+        J’accompagne la transformation des besoins métier en solutions numériques concrètes, du concept à la production,{' '}
+        <strong>en livrant rapidement des outils utiles et fiables</strong>.
       </p>
       <div className='mb-12 flex flex-col sm:flex-row justify-center md:justify-start gap-2'>
         <ButtonLink href='/contact' scale='btn-lg' color='btn-primary'>

@@ -55,8 +55,9 @@ export const ServicesSection = ({ className }: { className?: string }) => (
         <div>
           <h3 className='font-bold text-xl mb-2'>Collaboration & partage</h3>
           <p>
-            J’accompagne les équipes techniques dans l’adoption des bonnes pratiques et des méthodologies de développement les
-            plus avancées, par des actions concrètes qui renforcent leurs compétences, leur autonomie et leur performance.
+            J’accompagne les équipes techniques dans l’adoption des bonnes pratiques et méthodologies avancées, par des actions
+            concrètes et une documentation claire qui renforcent leur performance, leur autonomie et garantissent la
+            maintenabilité et l’évolution des projets.
           </p>
         </div>
       </div>

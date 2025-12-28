@@ -12,7 +12,7 @@ export const FinalCTASection = ({ className }: { className?: string }) => (
         que vous ayez un besoin précis ou que vous soyez encore en phase de réflexion.
       </p>
       <p className='pb-8'>
-        Contactez-moi, je vous réponds rapidement et nous explorerons ensemble comment avancer efficacement.
+        Contactez-moi, je vous réponds rapidement et étudierons ensemble la manière de faire évoluer votre produit.
       </p>
       <ButtonLink href='/contact' scale='btn-lg' color='btn-primary'>
         <RiMailLine className='mr-1' aria-hidden />

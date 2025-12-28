@@ -8,7 +8,7 @@ export const ApproachSection = ({ className }: { className?: string }) => (
     <p className='md:text-lg mb-6'>
       J’adopte une démarche itérative, centrée sur le terrain, pour transformer vos besoins en solutions concrètes et utiles.
       <br />
-      Cette méthode permet d’apprendre, d’ajuster rapidement le produit et de livrer de la valeur dès les premières itérations.
+      Cette méthode permet d’apprendre, d’ajuster rapidement le produit et de proposer des améliorations concrêtes au plus tôt.
     </p>
     <ul className='list rounded-box shadow-xl shadow-primary-surface grid grid-cols-1 lg:grid-cols-2 py-4'>
       <li className='flex gap-6 p-4'>
@@ -16,7 +16,7 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Partir du besoin métier</h3>
           <p className='text-base'>
-            On commence par le terrain&nbsp;: identifier le problème à résoudre et définir la prochaine évolution ayant un
+            Je commence par le terrain&nbsp;: identifier le problème à résoudre et proposer la prochaine évolution ayant un
             impact concret et immédiat.
           </p>
         </div>
@@ -26,8 +26,8 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Concevoir pour le changement</h3>
           <p className='text-base'>
-            Je développe uniquement ce qui est nécessaire, sur des fondations claires, simples et durables, conçues pour
-            s’adapter facilement aux évolutions.
+            Je développe uniquement ce qui est nécessaire, sur des bases claires, simples et durables, conçues pour s’adapter
+            facilement aux évolutions.
           </p>
         </div>
       </li>
@@ -36,7 +36,7 @@ export const ApproachSection = ({ className }: { className?: string }) => (
         <div className='list-col-grow'>
           <h3 className='uppercase font-bold text-primary py-2'>Livrer tôt, livrer souvent</h3>
           <p className='text-base'>
-            Des mises en production fréquentes réduisent les risques de désalignement avec le terrain et permettent de
+            Je mets en production régulièrement réduisent ainsi les risques de désalignement avec le terrain et permettent de
             confronter rapidement la solution au réel.
           </p>
         </div>
